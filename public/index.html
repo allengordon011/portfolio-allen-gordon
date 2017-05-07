@@ -1,11 +1,11 @@
-ABOUT ME<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Onepage - clean responsive HTML5 themes - thomsoon.com</title>
+    <title>Portfolio by Allen Gordon</title>
 
 		<meta name="description" content="Software engineer portfolio of work"/>
 		<meta name="keywords" content="software engineer, chicago"/>
@@ -16,10 +16,6 @@ ABOUT ME<!DOCTYPE html>
 		<link rel="stylesheet" type="text/css" href="./css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="./css/style.css" />
 		<link rel="stylesheet" type="text/css" href="./css/style-responsive.css" />
-
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
 
 </head>
 
@@ -44,14 +40,14 @@ ABOUT ME<!DOCTYPE html>
       <div class="content">
         <div class="text">
 
-          <div class="logo"><img src="./img/logo.png"></div>
 
-          <h1>Allen Gordon</h1><hr/>
-          <p>Fullstack Computer Engineer</p>
-
-          <a href="#about-me"><div class="read-more">About Me</div></a>
+          <h1>ALLEN GORDON</h1>
+          <h2>Fullstack Computer Engineer</h2>
+        <div><img class="start-page-logo" src="./img/brackets.png"></div>
+          <a href="#about-me"><div class="hover-button">About Me</div></a>
 
         </div>
+
         <div class="arrow-down"></div>
       </div>
 
@@ -63,9 +59,9 @@ ABOUT ME<!DOCTYPE html>
 
     <div class="menu-content">
 
-      <div class="logo">Onepage</div>
+      <div class="name">ALLEN GORDON</div>
 
-      <div class="icon"><a href="#"><img src="./img/icons/menu-media.png"/></a></div>
+      <div class="icon"><a href="#"><img src="./img/menu-media.png"/></a></div>
 
     </div>
 
@@ -86,7 +82,7 @@ ABOUT ME<!DOCTYPE html>
 
     <div class="menu-content">
 
-    <div class="logo">Onepage</div>
+    <div class="name">Allen Gordon</div>
 
       <ul id="menu">
         <li><a href="#home">HOME</a></li>
@@ -108,41 +104,33 @@ ABOUT ME<!DOCTYPE html>
 
     <h1>ABOUT ME</h1>
     <hr/>
-    <p class="title">Full stack computer engineer</p>
-
-      <div class="column-one">
-
-        <div class="circle-one"></div>
-
-          <h2>WORK HISTORY</h2>
-          <p></p>
-
+    <p class="bio">I am a fullstack computer engineer looking for work in Chicago. I love the challenge of developing new apps and learning new tools and frameworks. <br>
+    Before getting into programming I was a residential real estate broker for many years. I was always into computers and technology, and finally decided to make a career change.<br>
+    I frequently use React/Redux, Node.js/Express, MongoDB, and PostgreSQL to build web applications. I've also dabbled with Python and Django. I look forward to a lifetime of learning in computer engineering.</p>
+    <a href="http://bit.ly/2opQRCN" target="_blank"><div class="hover-button">RESUME</div></a>
+    <hr>
+    <div class="skills">
+        <h2>SKILLS</h2>
+        <p>JavaScript, Express.js, Node.js, React, Redux, MongoDB/Mongoose, PostgreSQL, Mocha/Chai, Python, Django</p>
+            <div class="languages">
+              <div class="circle" id="javascript"></div>
+              <div class="circle" id="express"></div>
+              <div class="circle" id="node"></div>
+              <div class="circle" id="react"></div>
+              <div class="circle" id="redux"></div>
+              <div class="circle" id="mongodb"></div>
+              <div class="circle" id="postgresql"></div>
+              <div class="circle" id="mocha"></div>
+              <div class="circle" id="python"></div>
+              <div class="circle" id="django"></div>
+        </div>
       </div>
-
-      <div class="column-two">
-
-        <div class="circle-two"></div>
-
-          <h2>SKILLS</h2>
-          <p></p>
-
-      </div>
-
-
-      <div class="column-three">
-
-        <div class="circle-three"></div>
-
-        <h2>EDUCATION</h2>
-        <p></p>
-
-    </div>
 
   </div>
-
   </section>
 
   <div class="clear"></div>
+
 
   <!-- portoflio-->
 
@@ -154,86 +142,49 @@ ABOUT ME<!DOCTYPE html>
       <h1>PORTFOLIO</h1>
       <hr/>
 
-    <!-- 1 item portoflio-->
+        <div class="grid">
 
-        {# <ul class="grid">
-
-          <li>
-            <a href="#">
-              <img src="./img/portfolio/1.png" alt="Portfolio item" />
-                <div class="text">
-                  <p>PORTFOLIO 1</p>
-                  <p class="description">Your text here...</p>
+              <div class="text">
+                <p>Recipe Box</p>
+                <p class="description">A recipe search app with personal ratings</p>
               </div>
-            </a>
-          </li>
+              <div class="grid-box">
+                  <a href="https://recipe-box-fullstack.herokuapp.com/" target="_blank"><img src="./img/portfolio/Recipe-Box_Screenshot-Main.png" alt="Recipe Box" /></a>
+            </div>
+              <hr>
+              <div class="text">
+                <p>Sixty-Six Days</p>
+                <p class="description">A goal-setting app with calendar reminders</p>
+            </div>
+            <div class="grid-box">
+                <a href="https://sixty-six-days.herokuapp.com/" target="_blank"><img src="./img/portfolio/Sixty-Six-Days_Screenshot-Main.png" alt="Sixty-Six Days" /></a>
+            </div>
 
-          <!-- 2 item portoflio-->
+            <hr>
+              <div class="text">
+                <p>Stock Saver</p>
+                <p class="description">A stock search app with user account management</p>
+            </div>
+            <div class="grid-box">
+                <a href="https://node-capstone-stock-saver.herokuapp.com/" target="_blank"><img src="./img/portfolio/Stock-Saver-Homepage.png" alt="Stock Saver" /></a>
+            </div>
 
-          <li>
-            <a href="#">
-              <img src="./img/portfolio/2.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p>
-                  <p class="description"></p>
-              </div>
-            </a>
-          </li>
+            <hr>
+              <div class="text">
+                <p>Chuck Norris Punch Lines</p>
+                <p class="description">A fun app that fetches random Chuck Norris jokes</p>
+            </div>
+            <div class="grid-box">
+                <a href="https://trig010.github.io/chuck-norris-punch-lines/" target="_blank"><img src="./img/portfolio/Chuck-Screen-Shot.png" alt="Chuck Norris Punch Lines" /></a>
+            </div>
 
-          <!-- 3 item portoflio-->
-
-          <li>
-            <a href="#">
-              <img src="./img/portfolio/3.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p>
-                  <p class="description"></p>
-              </div>
-            </a>
-          </li> #}
-
-
-          <!-- 4 item portoflio-->
-
-          <li>
-            <a href="#">
-              <img src="./img/portfolio/4.png" alt="Portfolio item" />
-                <div class="no-text">
-                  <p></p>
-                  <p class="description"></p>
-              </div>
-            </a>
-          </li>
-
-
-        </ul>
-
-   <a href="#"><div class="read-more">Read more</div></a>
+        </div>
 
    </div>
 
+
    </section>
-
-
    <div class="clear"></div>
-
-
-
-
-    <!-- divider -->
-
-    <section class="divider">
-
-    <div class="opacity"></div>
-
-      <div class="content">
-
-        <h2>Thank you for visiting my portfolio</h2>
-
-
-      </div>
-
-    </section>
 
 
     <!-- Contact-->
@@ -243,16 +194,22 @@ ABOUT ME<!DOCTYPE html>
         <hr/>
         <div class="content">
 
-          <div class="contact-text">
+          <p class="contact-text">
 
-          To contact me please use the following e-mail<br/><br/>
+          If you’d like to know more, or to discuss any opportunities, please don’t hesitate to reach out.<br/><br/>
 
-          <strong>Allen Gordon</strong><br/><br/>
+          <strong>Allen Gordon</strong><br/>
 
-          e-mail: <strong>trig.code@gmail.com</strong>
+          e-mail: <strong><a href="mailto:trig.code@gmail.com">trig.code@gmail.com</a></strong>
 
-          </div>
+      </p>
       </div>
+
+             <div class="thank-you">
+
+                 <h3>Thank you for visiting my portfolio!</h3>
+
+             </div>
     </section>
 
 
@@ -263,12 +220,11 @@ ABOUT ME<!DOCTYPE html>
 
             <a href="#home">Home</a>
             <br><br>
-            <a  href="http://www.linkedin.com/in/trig010"><img class="footer-logo" src="./img/logos/linkedin_logo_package/LinkedIn [in]/Screen/2-Color Reversed/In-2CRev-59px-R.png"></a>
-            <a href="http://www.github.com/trig010"><img class="footer-logo" src="./img/logos/Octocat/Octocat.png"></a>
-            <a href="http://www.twitter.com/trig010"><img class="footer-logo" src="./img/logos/Twitter_Logo_White_On_Image/Twitter_Logo_White_On_Image.svg"></a>
-            <br><br><a href="mailto:trig.code@gmail.com">Email Allen</a>
+            <a  href="http://www.linkedin.com/in/trig010" target="_blank"><img class="footer-logo" src="./img/logos/In-2CRev-75px-R.png"></a>
+            <a href="http://www.github.com/trig010" target="_blank"><img class="footer-logo" src="./img/logos/Octocat.png"></a>
+            <a href="http://www.twitter.com/trig010" target="_blank"><img class="footer-logo" src="./img/logos/Twitter_Logo_White_On_Image.svg"></a>
 
-</div>
+        </div>
 
 
         <div class="copyright">© 2017. All Rights Reserved trig010.com</div>
@@ -283,28 +239,21 @@ ABOUT ME<!DOCTYPE html>
 
 	<!-- Scripts -->
 
-	<script src="../src/js/jquery-1.11.0.min.js" type="text/javascript"></script>
-	<script src="../src/js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
-	<script src="../src/js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
-	<script src="../src/js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
-	<script src="../src/js/masonry.pkgd.min.js"></script> <!-- All script -->
-	<script src="../src/js/imagesloaded.pkgd.min.js"></script> <!-- All script -->
+	<script src="./js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="./js/jquery-ui-1.10.4.min.js" type="text/javascript"></script>
+    <!-- jQuery -->
+	<script src="./js/jquery.nicescroll.js"></script>
+    <!-- jQuery NiceScroll -->
+	<script src="./js/jquery.sticky.js"></script>
+    <!-- jQuery Stick Menu -->
 
-   <script>
-     $(function(){
+	<script src="./js/imagesloaded.pkgd.min.js"></script>
+    <!-- All script -->
 
-       var $container = $('.grid');
-
-       $container.imagesLoaded( function(){
-         $container.masonry({
-           itemSelector : 'li'
-         });
-       });
-
-     });
-   </script>
-	<script src="../src/js/jquery.parallax.js"></script> <!-- jQuery Parallax -->
-	<script src="../src/js/script.js"></script> <!-- All script -->
+	<script src="./js/jquery.parallax.js"></script>
+    <!-- jQuery Parallax -->
+	<script src="./js/script.js"></script>
+    <!-- All script -->
 
 
 </body>
