@@ -14,8 +14,6 @@
     .start-page {
         position: relative;
         width: 100%;
-        min-height: 350px;
-        margin-bottom: 50px;
     }
     .start-page .content {
         width: 350px;
