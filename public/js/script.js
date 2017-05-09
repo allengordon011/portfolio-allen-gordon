@@ -4,7 +4,7 @@
 
 
   // Stick menu
-  $(".menu").sticky({topSpacing:0});
+  // $(".menu").sticky({topSpacing:0});
 
 
   //Menu Scroll to content and Active menu
@@ -23,7 +23,7 @@
 	var target = $(this).attr("href");
 
 
-	$('html, body').stop().animate({ scrollTop: $(target).offset().top - 60 }, 1000, function() {
+	$('html, body').stop().animate({ scrollTop: $(target).offset().top }, 1000, function() {
 
 	});
 
