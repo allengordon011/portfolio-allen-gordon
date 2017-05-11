@@ -1,19 +1,26 @@
-@media (min-width: 320px) and (max-width: 579px) {
+@media (min-width: 320px) and (max-width: 815px) {
     body {
         margin: 0 auto;
     }
-    #sticky-wrapper {
-        display: none;
+    .preloader .item {
+      margin: 80% auto;
     }
     .menu {
         display: none;
     }
+    .menu-content {
+      width: 300px;
+    }
     .menu-media {
         display: block;
+    }
+    .menu-media .menu-content {
+        width: 340px;
     }
     .start-page {
         position: relative;
         width: 100%;
+        max-height: 100%;
     }
     .start-page .content {
         width: 350px;
@@ -24,16 +31,16 @@
     }
     .start-page .content .text {
         width: 300px;
-        margin: 50px auto;
     }
     .start-page-logo {
-      height: 50px;
+      height: 100px;
     }
     h1 {
-        font-size: 1em;
+        font-size: 1.75em;
     }
     h2 {
-      font-size: 1em;
+      font-size: 1.25em;
+      margin: 5px auto 0;
     }
     .about-me {
         padding: 50px 0;
@@ -47,21 +54,27 @@
         margin: 20px auto;
     }
     .about-me .content {
-        width: 300px;
+        width: 325px;
     }
     .about-me hr, .portfolio .portfolio-margin hr, .contact hr {
         width: 350px;
     }
+    .about-me .bio {
+        margin: 20px auto;
+    }
+    .portfolio {
+      padding: 170px 0 0;
+    }
     .portfolio .portfolio-margin {
-        width: 375px;
+        width: 400px;
         padding: 0;
     }
     .portfolio .grid .text {
         width: 325px;
     }
     .portfolio .grid .grid-box {
-        width: 375px;
-        height: 100%;
+        width: 350px;
+        height: 250px;
     }
     .grid p {
         margin: 15px 0 10px;
@@ -98,52 +111,3 @@
         /*position: relative;*/
     }
 }
-
-/*@media (min-width: 580px) and (max-width: 767px) {
-    .menu {
-        display: none;
-    }
-    .menu-media {
-        display: block;
-    }
-    .menu-media .menu-content {
-        width: 540px;
-    }
-    .start-page .content {
-        width: 300px;
-        height: 100%;
-    }
-    .start-page, .start-page .opacity {
-        height: 100%;
-    }
-    .start-page .content .text {
-        width: 300px;
-    }
-    h1 {
-        font-size: 36px;
-    }
-    .about-me h1 {
-        margin-top: 0;
-    }
-    .about-me .content {
-        width: 300px;
-    }
-    .about-me hr, .portfolio .portfolio-margin hr, .contact hr {
-        width: 350px;
-    }
-    .portfolio .portfolio-margin {
-        width: 300px;
-    }
-    .contact .content .contact-text {
-        padding-left: 0px;
-        width: 300px;
-        text-align: center;
-        margin-top: 60px;
-    }
-    .contact {
-        margin: 0 auto;
-    }
-    .footer {
-        position: relative;
-    }
-}*/
