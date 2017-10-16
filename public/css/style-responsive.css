@@ -36,7 +36,7 @@
       height: 100px;
     }
     h1 {
-        font-size: 1.75em;
+        font-size: 2em;
     }
     h2 {
       font-size: 1.25em;
@@ -76,9 +76,9 @@
         width: 350px;
         height: 250px;
     }
-    .grid p {
+    .grid h2 {
         margin: 15px 0 10px;
-        font-size: 2em;
+        font-size: 1.75em;
     }
     .grid img {
         width: 100%;

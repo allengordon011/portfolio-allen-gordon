@@ -42,6 +42,7 @@ h1 {
 }
 
 h2 {
+  font-family: 'Source Code Pro', monospace;
   margin: 15px auto 0;
   font-size: 2em;
   color: white;
@@ -50,7 +51,6 @@ h2 {
 }
 
 p {
-  font-family: 'Source Code Pro', monospace;
   font-size: 1em;
   color: white;
   font-weight: 300;
@@ -418,7 +418,7 @@ p {
   display: flex;
 }
 
-.grid p {
+.grid h2 {
   margin: 20px 0 5px;
   font-size: 2em;
   font-weight: 900;
@@ -437,6 +437,12 @@ p {
 .grid li {
   font-size: 1em;
   padding: 5px;
+}
+
+.screenshot-header {
+  font-size: .8em;
+  color: black;
+  margin: 0 auto 10px;
 }
 
 .clear {
