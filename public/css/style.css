@@ -50,6 +50,11 @@ h2 {
   letter-spacing: 1px;
 }
 
+h3 {
+  color: white;
+  margin-top: 10px;
+}
+
 p {
   font-size: 1em;
   color: white;
@@ -396,7 +401,7 @@ p {
 
 .grid .text {
   text-align: center;
-  width: 525px;
+  width: 600px;
   z-index: 10;
   opacity: 1;
   margin: 0 auto 15px;
@@ -428,7 +433,7 @@ p {
 }
 
 .grid ul.description {
-  margin: 10px auto;
+  margin: 15px auto;
   font-size: 1em;
   font-weight: 400;
   position: relative;
@@ -475,7 +480,7 @@ p {
   line-height: 1.2;
 }
 
-.about-me p.bio {
+.about-me .bio {
   color: #282828;
   margin: 40px auto;
   max-width: 700px;
